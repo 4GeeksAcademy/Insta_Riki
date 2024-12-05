@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+.post {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;  
+}
+.post-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-header i {
+    font-size: 3rem;
+}
+.left-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-html5 {
+    margin: 10px 20px;
+}
+
+.text {
+    line-height: 6px;
+}
+
+.right-side {
+    margin-right: 10px;
+}
+
+.post-photo img{
+    width: 100%;
+    height: 60%;
+}
+.post-icons i {
+    font-size: 3.1rem;
+    
+}
